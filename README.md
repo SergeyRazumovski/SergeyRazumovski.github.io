@@ -1,2 +1,2 @@
-# SergeyRazumovski.github.io
+# Сергей Разумовский
 Мой первый сайт
