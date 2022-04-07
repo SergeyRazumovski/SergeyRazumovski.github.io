@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<! Тег мультиязычности для браузера>
+<html lang="en">
+<head>
+   <! МетаТеги>
+       <! Тег с атрибутом кодировки для браузера>
+    <meta charset="UTF-8">
+    <! Тег для отображения информации в поисковике>
+    <meta name="description" content="Это моя первая страница">
+    <! Тег о создателе страницы>
+    <meta name="author" content="Razumoffskii">
+    <! Устаревший тег с ключевыми словами>
+    <meta name="keywords" content="Разработка сайтов, визитка...">
+    <! Тег для отображения в поисковике, index/noindex включит/не включит в результаты поиска сайт, follow/nofollow позволит/не позволит браузеру следовать по внутренним ссылкам на найденном сайте. Чтобы разрешить и то, и другое, можно написать all>
+    <meta name="robots" content="all">
+    
+    <! Тег предпросмотра информации о странице>
+    <meta property="ogititle" content="Это моя первая страница">
+    
+    <title>Урок 2 - HTML</title>
+</head>
+<body>
+   <! Блочные теги для заголовков с переносом строки>
+    <h1>ПРИВЕТ МИР</h1>
+    <h2>ПРИВЕТ МИР</h2>
+    <h3>ПРИВЕТ МИР</h3>
+    <h4>ПРИВЕТ МИР</h4>
+    <h5>ПРИВЕТ МИР</h5>
+    <h6>ПРИВЕТ МИР</h6>
+    
+    <! Строчный тег для текста без переноса строк>
+    <span>привет мир</span>
+    <span>привет мир</span>
+    <span>привет мир</span>
+    <span>привет мир</span>
+    <span>привет мир</span>
+    <span>привет мир</span>
+    
+    <! Тег верхней части сайта>
+    <header>
+       <! Тег для создания меню навигации>
+        <nav></nav>
+    </header>
+    
+    <! Тег "подвала" сайта>
+    <footer></footer>
+    
+    <! Тег блочных элементов>
+    <div></div>
+    
+    <! Тег абзаца>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum beatae commodi expedita repellat corporis inventore fuga cum ipsam natus, recusandae.</p>
+    
+    <! ВАЖНО!!! Внутри строчных тегов нельзя помещать блочные! А наоборот можно.>
+    
+    <! Теги списков>
+        <! Маркированный>
+        <ul>
+           <! Специальный тег для элементов списка>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+        </ul>
+        
+        <! Нумерованный>
+        <ol>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+        </ol>
+        
+    <span>Есть тег, который выделяет текст <b>жирным</b>, а есть который делает <em>курсивный текст</em>. Следующие два тега делают текст <big>болшим</big> и <small>маленьким</small>. Также имеется тег для переноса <br> на следующую строку!</span>
+    
+    <! Тег для ссылок. Атрибут href содержит ссылку для перехода. Атрибут target со значением "_blank", открывает ссылку в новой вкладке>
+    <a href="http://google.com" target="_blank">Ссылка в никуда</a>
+    
+    <! Тег изображения. Атрибут src содержит путь к изображению. Атрибут alt содержит сообщение на случай, если картинка не прогрузилась>
+    <img src="https://www.google.com/images/branding/goglelogo/1x/googlelogo_color_272x92dp.png" alt="Да ё-моё, ну почему не грузит?">
+    
+    
+    <! Табличные теги>
+    <table border="1" width="50%">
+        <tr>
+            <th>Значение 1</th>
+            <th>Значение 2</th>
+        </tr>
+        <tr>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+        </tr>
+        <tr>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+        </tr>
+        <tr>
+            <td>Ячейка 1</td>
+            <td>Ячейка 2</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+    
+    
+    <! Теги форм>
+    <form action="s">
+        
+        <input type="text" name="text_input" value="" placeholder="Логин">
+        <input type="password" placeholder="Пароль">
+        <input type="tel" placeholder="Телефон">
+        <input type="number" placeholder="Число">
+        <input type="radio" name="rad" value="1">Кнопка 1
+        <input type="radio" name="rad" value="2">Кнопка 2
+        <input type="checkbox" name="check" value="3">Чекбокс 1
+        <input type="checkbox" name="check2" value="4">Чекбокс 2
+        <input type="file">
+        
+        <textarea name="name1" id="1" cols="30" rows="10"></textarea>
+        
+        <select name="list1" id="list" multiple>
+            <option value="opt1">1</option>
+            <option value="opt2">2</option>
+            <option value="opt3">3</option>
+        </select>
+        
+        <input type="reset" value="Сбросить">
+        <input type="submit" value="Отправить">
+        
+    </form>
+</body>
+</html>
