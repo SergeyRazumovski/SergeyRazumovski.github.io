@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Сергей Разумовский Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/parallax.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -11,63 +12,98 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Сергей Разумовский</div>
-            <div class="menu"><ul>
+           <div class="container fluid">
+               <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-7"><div class="logo">Сергей Разумовский</div></div>
+                <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-3 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
                 <li><a href="#">Обо мне</a></li>
                 <li><a href="#">Услуги</a></li>
                 <li><a href="#">Кейсы</a></li>
                 <li><a href="#">Прайс</a></li>
                 <li><a href="#">Отзывы</a></li>
                 <li><a href="#">Контакты</a></li>
-            </ul></div>
+            </ul></div></div>
+            <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                <div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Навигация
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" href="#">Обо мне</a></li>
+        <li><a class="dropdown-item" href="#">Услуги</a></li>
+        <li><a class="dropdown-item" href="#">Кейсы</a></li>
+        <li><a class="dropdown-item" href="#">Прайс</a></li>
+        <li><a class="dropdown-item" href="#">Отзывы</a></li>
+        <li><a class="dropdown-item" href="#">Контакты</a></li>
+  </ul>
+                </div>
+            </div>
+                </div>
+           </div> 
         </nav>
     </header>
     
     
     <main>
-    <section class="maine"> 
-        <div class="title__container">
+    <section class="maine">
+       <div class="container"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5"><div class="title__container mt-5">
         <h1>Привет, <br> я Сергей Разумовский</h1>
         <h4>Фул стек веб-разработчик</h4>
         <input type="button" value="Обо мне">
         <input type="button" value="Мои работы">
-        </div>
+        </div></div></div></div> 
     </section>
     
     
     <section class="second__container">
+      <div class="container h-100">
+       <div class="row align-items-center h-100">
+       <div class="col-3"></div>
+       <div class="col-6">
         <div class="about_me">
         <h3 class="animate">ОБО МНЕ</h3>
         <img src="img/boyLogo.png" alt="Что могло пойти не так?">
-        <span><br>Привет. Меня зовут Сергей Разумовский. В данный момент я работаю в сфере общепита, которая приходит в упадок в связи с последними мировыми событиями. <br><br>Я поставил себе цель сменить сферу деятельности и открыл для себя мир IT, но попасть в него пока не получается.</span>
-        <span><br><a href="#" target="_blank"><input type="submit" value="Скачать резюме"></a></span>
+        <span><br>Привет. Меня зовут Сергей Разумовский. В данный момент я работаю в сфере общепита, которая приходит в упадок в связи с последними мировыми событиями. <br><br>Я поставил себе цель сменить сферу деятельности и открыл для себя мир IT, но попасть в него пока не получается.</span></div></div>
+        <div class="col-3"></div></div>
+        <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+        <div class="about_me_input">
+        <a href="#" target="_blank"><input type="submit" value="Скачать резюме"></a></div>
+        </div>
+        <div class="col-4"></div>
+        </div>
         </div>
     </section>
      
-    <section class="third__container">
-        <div class="skills">
+    <section class="container">
+      <div class="skills">
             <h3>ЧТО Я УМЕЮ</h3>
-            <span>
+       <div class="row justify-content-md-center">
+           <div class="col"><span>
                 <img src="img/nout.png" alt="Что могло пойти не так?" width="50"><br>
                 <big>Веб-дизайн</big>
                     <p>Учусь в школе Андрея Браун. Это школа по созданию сайтов.</p>    
-            </span>
-            <span>
+            </span></div>
+           <div class="col"><span>
                 <img src="img/znak.png" alt="Что могло пойти не так?" width="50"><br>
                     <big>Разработка</big>
                         <p>Занимаюсь разработкой собственного сайта визитки.</p>
-            </span>
-            <span>
+            </span></div>
+           <div class="col"><span>
                 <img src="img/raketa.png" alt="Что могло пойти не так?" width="50"><br>
                     <big>CEO-разработка</big>
                         <p>Пришлось гуглить, но я выяснил, что SEO-проектирование — это один из первых этапов при разработке сайта, в рамках которого закладывается фундамент для продвижения сайта через поисковые системы.</p>
-            </span>
-            <span>
+            </span></div>
+           <div class="col"><span>
                 <img src="img/megafon.png" alt="Что могло пойти не так?" width="50"><br>
                     <big>Маркетинг</big>
                         <p>Отложим это  в самый дальний ящик пока что.</p>
-            </span>
-            <p></p>
+            </span></div>
+       </div>
+        
+            
         </div>
     </section>
        
@@ -171,6 +207,7 @@
         </div> 
     </footer>
     
-
+    <script src="js/bootstrap.bundle.min.js"
+    ></script>
 </body>
 </html>
