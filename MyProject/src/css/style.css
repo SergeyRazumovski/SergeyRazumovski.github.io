@@ -203,7 +203,7 @@ section {
 
 .about_me {
     text-align: center;
-    float: left;
+    
     width: 100%;
     height: 100%;
     padding: 0px 0px;
@@ -214,7 +214,7 @@ section {
 }
 
 .about_me h3 {
-    float: left;
+    
     width: 100%;
     height: 30px;
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
@@ -235,7 +235,6 @@ section {
 }
 
 .about_me_input input {
-    float: left;
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -261,7 +260,6 @@ section {
 }
 
 .skills {
-    float: left;
     background: url(../img/fonSkils.png) no-repeat;
     background-size: 100% 100%;
     background-position: 100% 100%;
@@ -273,14 +271,13 @@ section {
 }
 
 .skills h3{
-    float: left;
     width: 100%;
     height: 30px;
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-/*    margin: 100px 0px 60px 0px;*/
+    margin: 100px 0px 60px 0px;
     
     
 }
@@ -298,7 +295,7 @@ section {
 }
 
 .skills span {
-    float: left;
+    
     width: 25%;
     height: 30px;
     font-size: 20px;
@@ -332,35 +329,30 @@ footer h3:hover {
 }
 
 .case {
-    float: left;
     width: 100%;
     text-align: center;
     background: url(../img/case.png) no-repeat;
     background-position: 0% 100%;
     background-size: 80% 80%;
     height: 100%;
-    margin: 0px 0px;
+    margin: 80px 0px;
 }
 
 .case h3{
-    float: left;
     width: 100%;
     height: 30px;
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 0px 0px 60px 0px;
+/*    margin: 0px 0px 0px 0px;*/
 }
 
 .case span{
-    float: left;
     text-align: center;
-    margin: 0px 750px;
 }
 
 .case input {
-    float: left;
     text-align: center;
     border: 2px solid;
     border-radius: 5px;
@@ -369,7 +361,7 @@ footer h3:hover {
     width: 200px;
     color: #fff;
     background: #63b5ae;
-    margin: 710px 0px 0px -180px;
+/*    margin: 410px 0px 0px -790px;*/
 }
 
 .fourth__container input:hover {
@@ -379,43 +371,32 @@ footer h3:hover {
 }
 
 .client h4 {
-    float: left;
     font-size: 30px;
-    margin: 500px 0px 0px 360px; 
-}
-
-.client span {
-    float: left;
-    margin: 560px 0px 0px -110px;
 }
 
 .website h4 {
-    float: left;
-    font-size: 30px;
-    margin: 600px 0px 0px -125px; 
+    font-size: 30px; 
 }
 
 .name_project h5 {
-    float: left;
     font-size: 25px;
-    margin: 525px 0px 0px 80px;
 }
 
 .name_project span {
-    float: left;
     font-size: 20px;
-    margin: -200px 0px 0px 640px;
-    text-align: left;
+    
     padding: 0px 350px 0px 0px;
 }
 
+/*
 .website span {
     float: left;
     margin: 660px 0px 0px -140px;
 }
+*/
 
 .calculator {
-    float: left;
+    
     width: 100%;
     font-size: 30px;
     font-weight: bold;
@@ -428,23 +409,23 @@ footer h3:hover {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin: 200px 0px 60px 0px;
+    
 }
 
 .calculator h4 {
-    float: left;
+    
     width: 100%;
     height: 20px;
     font-size: 30px;
     font-weight: bold;
-    text-align: left;
-    margin: 50px 0px 20px 460px;
+/*    text-align: left;*/
+/*    margin: 50px 0px 20px 460px;*/
 }
 
 #list1 {
-    float: left;
+/*    float: left;*/
     border: 2px solid #6d7682;
-    margin: 40px 0px 60px 450px;
+/*    margin: 40px 0px 60px 450px;*/
     background: #eeeeee;
     border-radius: 0px;
     color: #6d7682;
@@ -455,9 +436,9 @@ footer h3:hover {
 }
 
 #list2 {
-    float: left;
+/*    float: left;*/
     border: 2px solid #6d7682;
-    margin: 40px 0px 60px 450px;
+/*    margin: 40px 0px 60px 450px;*/
     background: #eeeeee;
     border-radius: 0px;
     color: #6d7682;
@@ -468,9 +449,9 @@ footer h3:hover {
 }
 
 #list3 {
-    float: left;
+/*    float: left;*/
     border: 2px solid #6d7682;
-    margin: 40px 0px 60px 450px;
+/*    margin: 40px 0px 60px 450px;*/
     background: #eeeeee;
     border-radius: 0px;
     color: #6d7682;
@@ -481,63 +462,63 @@ footer h3:hover {
 }
 
 .calculator img {
-    float: left;
+    
     text-align: center;
-    margin: 15px 10px 10px 450px;
+/*    margin: 15px 10px 10px 450px;*/
 }
 
 .calculator span {
-    float: left
+/*    float: left*/
     text-align: center;
-    margin: 15px 100px 10px 0px;
+/*    margin: 15px 100px 10px 0px;*/
 }
 
 .result {
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 150px;
-    margin: 0px 0px 0px 450px;
+/*    margin: 0px 0px 0px 450px;*/
 }
 .result span{
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 20%;
-    text-align: left;
-    margin: 0px 0px 0px 0px;
+/*    text-align: left;*/
+/*    margin: 0px 0px 0px 0px;*/
 }
 
 .statistics {
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 100%;
-    background: url(../img/fonStatistics.png) 100% 100%/100% 50% no-repeat;
+    background: url(../img/fonStatistics.png) 100% 100%/100% 100% no-repeat;
     background-attachment: fixed;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin: -350px 0px 0px 0px;
+/*    margin: -350px 0px 0px 0px;*/
 }
 
 .statistics h3{
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 30px;
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 520px 0px 60px 0px;
+/*    margin: 520px 0px 60px 0px;*/
 }
 
 .statistics span {
-    float: left;
+/*    float: left;*/
     width: 25%;
     text-align: center;
 }
 
 .statistics img {
     text-align: center;
-    margin: 25px;
+/*    margin: 25px;*/
     width: 15%;
 }
 
@@ -547,7 +528,7 @@ footer h3:hover {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin: 0px 0px 0px 0px;
+/*    margin: 0px 0px 0px 0px;*/
     color: #323e4f;
 }
 
@@ -557,8 +538,8 @@ footer h3:hover {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin-right: 40px;
-    margin: 0px 0px 0px 0px;
+/*    margin-right: 40px;*/
+/*    margin: 0px 0px 0px 0px;*/
     color: #323e4f;
 }
 
@@ -568,33 +549,33 @@ footer h3:hover {
 }
 
 .reviews {
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 100%;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    margin: 200px 0px 60px 0px;
+/*    margin: 200px 0px 60px 0px;*/
 }
 
 .reviews h3{
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 30px;
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 0px 0px 60px 0px;
+/*    margin: 0px 0px 60px 0px;*/
 }
 
 .reviews img {
     text-align: center;
-    width: 
+    
 }
 
 .reviews span {
-    float: left;
+/*    float: left;*/
     width: 80%;
     margin: 50px 200px;
     text-align: center;
@@ -603,7 +584,7 @@ footer h3:hover {
 }
 
 footer {
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 100%;
     background: url(../img/fonContacts.png) 50% 50%/100% 100% no-repeat;
@@ -613,28 +594,28 @@ footer {
 }
 
 .contacts {
-    float: left;
+/*    float: left;*/
     width: 100%;
-    height: 40%;
+/*    height: 40%;*/
     text-align: center;
 }
 
 
 .contacts h3 {
-    float: left;
+/*    float: left;*/
     width: 100%;
-    height: 30px;
+/*    height: 30px;*/
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 50px 0px 60px 0px;
+/*    margin: 50px 0px 60px 0px;*/
     color: #fff;
 }
 
 .contacts span {
-    float: left;
-    width: 33.3%;
+/*    float: left;*/
+/*    width: 33.3%;*/
     text-align: center;
 }
 
@@ -643,19 +624,19 @@ footer {
 }
 
 .contacts small{
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 30px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin-right: 40px;
-    margin: 0px 0px 0px 0px;
+/*    margin-right: 40px;*/
+/*    margin: 0px 0px 0px 0px;*/
     color: #fff;
 }
 
 .contacts big {
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 30px;
     font-size: 20px;
@@ -672,13 +653,13 @@ footer {
 }
 
 .contacts p {
-    float: left;
+/*    float: left;*/
     width: 100%;
     text-align: center;
 }
 
 .feedback input {
-    float: left;
+/*    float: left;*/
     width: 50%;
     height: 40px;
     text-align: center;
@@ -698,20 +679,20 @@ footer {
 }
 
 .feedback p {
-    float: left;
+/*    float: left;*/
     text-align: center;
-    margin: 0px 0px 0px 650px;
+/*    margin: 0px 0px 0px 650px;*/
 }
 
 .feedback span {
     text-align: center;
-    float: left;
-    width: 50%;
-    margin: 0px 0px 0px 680px;
+/*    float: left;*/
+/*    width: 50%;*/
+/*    margin: 0px 0px 0px 680px;*/
 }
 
 .feedback textarea {
-    float: left;
+/*    float: left;*/
     width: 50%;
     font-size: 20px;
     text-align: center;
@@ -720,20 +701,20 @@ footer {
     padding: 0px 0px 0px 0px;
     background: none;
     color: #fff;
-    margin: 10px 0px;
+/*    margin: 10px 0px;*/
 }
 
 
 
 .feedback h3 {
-    float: left;
+/*    float: left;*/
     width: 100%;
     height: 30px;
     background: url(../img/ChertaZagolovka.png) 50% 100%/auto no-repeat;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 50px 0px 60px 0px;
+/*    margin: 50px 0px 60px 0px;*/
     color: #fff;
 }
 
