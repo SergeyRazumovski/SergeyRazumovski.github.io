@@ -12,10 +12,10 @@
 <body>
     <header>
         <nav>
-           <div class="container fluid">
-               <div class="row">
-                <div class="col-xxl-3 col-xl-3 col-lg-3 col-7"><div class="logo">Сергей Разумовский</div></div>
-                <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-3 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
+           <div class="container h-100">
+               <div class="row h-100">
+                <div class="col-xxl-3 col-xl-4 col-lg-4 col-7"><div class="logo">Сергей Разумовский</div></div>
+                <div class="px-0 col-xxl-6 col-xl-6 col-lg-7 offset-xxl-3 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
                 <li><a href="#">Обо мне</a></li>
                 <li><a href="#">Услуги</a></li>
                 <li><a href="#">Кейсы</a></li>
@@ -47,7 +47,7 @@
     
     <main>
     <section class="maine">
-       <div class="container"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5"><div class="title__container mt-5">
+       <div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5"><div class="title__container mt-5">
         <h1>Привет, <br> я Сергей Разумовский</h1>
         <h4>Фул стек веб-разработчик</h4>
         <input type="button" value="Обо мне">
@@ -59,16 +59,19 @@
     <section class="second__container">
       <div class="container h-100">
        <div class="row justify-content-center">
-       <div class="col-6">
+       <div class="col-6 align-self-end">
         <div class="about_me">
         <h3 class="animate">ОБО МНЕ</h3>
         <img src="img/boyLogo.png" alt="Что могло пойти не так?">
-        <span><br>Привет. Меня зовут Сергей Разумовский. В данный момент я работаю в сфере общепита, которая приходит в упадок в связи с последними мировыми событиями. <br><br>Я поставил себе цель сменить сферу деятельности и открыл для себя мир IT, но попасть в него пока не получается.</span></div></div>
+        <span><br>Привет. Меня зовут Сергей Разумовский. В данный момент я работаю в сфере общепита, которая приходит в упадок в связи с последними мировыми событиями. <br><br>Я поставил себе цель сменить сферу деятельности и открыл для себя мир IT, но попасть в него пока не получается.</span>
+        </div>
+        </div>
         </div>
         <div class="row justify-content-center">
-        <div class="col-4 text-center">
+        <div class="col-4 offset-2">
         <div class="about_me_input">
-        <a href="#" target="_blank"><input type="submit" value="Скачать резюме"></a></div>
+        <a href="#" target="_blank"><input type="submit" value="Скачать резюме"></a>
+        </div>
         </div>
         </div>
         </div>
@@ -76,11 +79,11 @@
      
     <section class="third__container">
     <div class="skills">
-     <div class="container"><div class="row justify-content-center"><div class="col">
+     <div class="container h-100"><div class="row justify-content-center"><div class="col-6 align-self-end">
             <h3>ЧТО Я УМЕЮ</h3>
             </div>
             </div>
-       <div class="row justify-content-center">
+       <div class="row aligne-items-end">
            <div class="col"><span>
                 <img src="img/nout.png" alt="Что могло пойти не так?" width="50"><br>
                 <big>Веб-дизайн</big>
@@ -111,25 +114,25 @@
         
     <section class="fourth__container">
         <div class="case">
-           <div class="container"><div class="row justify-content-center">
+           <div class="container h-100"><div class="row justify-content-center">
                <div class="col">
                    <h3>КЕЙСЫ</h3>
             <span>Здесь будут кейсы, если они у меня будут</span></div></div>
-            <div class="row row-cols-auto">
-            <div class="col">
+            <div class="row justify-content-start">
+            <div class="col-5">
             <div class="client">
             <h4><br>CLIENT:</h4>
             <span><br>Какая-то компания</span>
             </div></div></div>
-            <div class="row row-cols-auto">
-            <div class="col">
+            <div class="row justify-content-start">
+            <div class="col-5 mx-4 align-self-end">
             <div class="website">
             <h4><br>WEBSITE:</h4>
             <span><br>http://www.somedomain.com<br></span>
             <input type="website" value="VISIT LIVE SITE">
             </div></div></div>
-            <div class="row row-cols-auto">
-            <div class="col">
+            <div class="row justify-content-center">
+            <div class="col-10 align-self-end">
             <div class="name_project"><h5>Название проекта</h5><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt laboriosam, soluta nesciunt, sed perferendis rem aut nam dolore eos inventore quos, ullam perspiciatis earum unde magnam in dolor quibusdam iste possimus? Hic dolor, possimus mollitia architecto, culpa reprehenderit! Quae provident sit enim optio vel maiores hic est officiis animi. Consectetur!</span></div></div></div>
                
            
@@ -137,14 +140,13 @@
            </div> 
         </div>
     </section>
-       
     <section class="fifth__container"> 
         <div class="calculator">
-           <div class="container"><div class="row justify-content-center">
+           <div class="container h-100"><div class="row justify-content-center">
               <div class="col">
                <h2>Расчёт стоимости</h2>
                </div></div>
-               <div class="row justify-content-center">
+               <div class="row justify-content-center h-100">
                <div class="col">
                   <h4>ТИП САЙТА</h4>
                 <select name="list1" id="list1">
@@ -255,6 +257,7 @@
         </div></div>
     </footer>
     </main>
+    <script src="js/myScript.js"></script>
     <script src="js/bootstrap.bundle.min.js"
     ></script>
 </body>

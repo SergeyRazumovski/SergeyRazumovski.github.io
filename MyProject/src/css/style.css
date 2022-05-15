@@ -10,7 +10,6 @@ nav {
     background: #344051;
     position: fixed;
     font-family: 'Tapestry', cursive;
-    z-index: 1;
 }
 
 .logo {
@@ -110,11 +109,13 @@ main {
     width: 100%;
     height: 100%;
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/fon.png) center/cover no-repeat;
+    
 }
 
 section {
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 .title__container {
@@ -130,6 +131,7 @@ section {
     -o-animation-delay: 2s;
     animation-delay: 2s;
     font-family: 'Tapestry', cursive;
+    
 }
 
 .title__container h1{
@@ -178,28 +180,7 @@ section {
     }
 }
 
-@media (max-width: 991px) {
-    .title__container, .title__container h4, .title__container input {
-        color: white;
-        position: relative;
-        z-index: 3;
-    }
-    .title__container input {
-        border: 2px solid #fff;
-    }
-    .main {
-        position: relative;
-    }
-    .main::after {
-        content: "";
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-        position: absolute;
-        background: rgba(0,0,0,0.4);
-    }
-}
+
 
 .about_me {
     text-align: center;
@@ -209,7 +190,7 @@ section {
     padding: 0px 0px;
     margin-top: 60px;
     color: #2c384a;
-    margin: 0px 0px 0px 0px;
+/*    margin: -80px 0px 0px 0px;*/
     
 }
 
@@ -221,7 +202,7 @@ section {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin: 110px 0px 0px 0px;
+    margin: 0px 0px 80px 0px;
     
 }
 
@@ -285,7 +266,7 @@ section {
 .skills p {
     text-align: center;
     color: #3f495a;
-/*    margin: 20px;*/
+    margin: 20px;
 }
 
 .skills img {
@@ -718,3 +699,26 @@ footer {
     color: #fff;
 }
 
+@media (max-width: 991px) {
+    .title__container, .title__container h4, .title__container input {
+        color: white;
+        position: relative;
+        z-index: 10;
+    }
+    .title__container input {
+        border: 2px solid #fff;
+    }
+    .main {
+        position: relative;
+    }
+    .main::after {
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.8);
+        z-index: 1;
+    }
+}
