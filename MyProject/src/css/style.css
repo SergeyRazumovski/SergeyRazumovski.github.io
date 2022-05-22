@@ -10,6 +10,7 @@ nav {
     background: #344051;
     position: fixed;
     font-family: 'Tapestry', cursive;
+    z-index: 10
 }
 
 .logo {
@@ -703,7 +704,7 @@ footer {
     .title__container, .title__container h4, .title__container input {
         color: white;
         position: relative;
-        z-index: 10;
+        z-index: 3;
     }
     .title__container input {
         border: 2px solid #fff;
@@ -718,7 +719,10 @@ footer {
         left: 0;
         right: 0;
         position: absolute;
-        background: rgba(0,0,0,0.8);
+        background: rgba(0,0,0,0.4);
         z-index: 1;
+    }
+    .skills p{
+        display: none;
     }
 }
